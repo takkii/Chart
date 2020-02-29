@@ -37,7 +37,7 @@ class PieChart {
             data.setValue("Windows Mobile", num3);
 
             // 2D
-            //JFreeChart chart = ChartFactory.createPieChart("スマートフォンのシェア（2010年）",data,true,false,false);
+            //JFreeChart chart = ChartFactory.createPieChart(str, data, true, false, false);
 
             // 3D
             JFreeChart chart = ChartFactory.createPieChart3D(str, data, true, false, false);
