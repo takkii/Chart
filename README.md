@@ -1,4 +1,4 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)![GitHub release](https://img.shields.io/github/release/takkii/Chart.svg?style=flat)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)![GitHub release](https://img.shields.io/github/release/takkii/Chart.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/Chart.svg?style=flat)](GitHub)
 
 ### Chart_java
 
