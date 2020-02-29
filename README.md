@@ -1,3 +1,5 @@
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)![GitHub release](https://img.shields.io/github/release/takkii/Chart.svg?style=flat)
+
 ### Chart_java
 
 ![Chart](https://github.com/takkii/Chart/blob/master/piechart.png)
