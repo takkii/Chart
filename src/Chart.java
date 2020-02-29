@@ -9,8 +9,8 @@ import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-class PieChart{
-    void en(){
+class PieChart {
+    void en() {
         try {
             double num0;
             double num1;
@@ -25,7 +25,7 @@ class PieChart{
             num2 = 4.6;
             num3 = 42.3;
 
-            str = "スマートフォンのシェア（2009年）";
+            str = "スマートフォンのシェア（2010年）";
             str1 = "円グラフ";
 
             ChartFactory.setChartTheme(StandardChartTheme.createLegacyTheme());
@@ -37,7 +37,7 @@ class PieChart{
             data.setValue("Windows Mobile", num3);
 
             // 2D
-            //JFreeChart chart = ChartFactory.createPieChart("スマートフォンのシェア（2009年）",data,true,false,false);
+            //JFreeChart chart = ChartFactory.createPieChart("スマートフォンのシェア（2010年）",data,true,false,false);
 
             // 3D
             JFreeChart chart = ChartFactory.createPieChart3D(str, data, true, false, false);
@@ -50,7 +50,7 @@ class PieChart{
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.pack();
             frame.setVisible(true);
-        }catch (Exception e){
+        } catch (Exception e) {
             System.err.println("Exception error");
             e.printStackTrace(System.out);
         }
