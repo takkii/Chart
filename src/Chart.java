@@ -16,25 +16,28 @@ class PieChart {
             double num1;
             double num2;
             double num3;
+            double num4;
 
             String str;
             String str1;
 
-            num0 = 32.3;
-            num1 = 20.2;
-            num2 = 4.6;
-            num3 = 42.3;
+            num0 = 30.61;
+            num1 = 18.45;
+            num2 = 7.91;
+            num3 = 7.27;
+            num4 = 6.07;
 
-            str = "スマートフォンのシェア（2010年）";
+            str = "プログラミング言語の人気ランキング（2020年4月）";
             str1 = "円グラフ";
 
             ChartFactory.setChartTheme(StandardChartTheme.createLegacyTheme());
 
             DefaultPieDataset data = new DefaultPieDataset();
-            data.setValue("iPhone", num0);
-            data.setValue("Android", num1);
-            data.setValue("BlackBerry", num2);
-            data.setValue("Windows Mobile", num3);
+            data.setValue("Python", num0);
+            data.setValue("Java", num1);
+            data.setValue("JavaScript", num2);
+            data.setValue("C#", num3);
+            data.setValue("PHP", num4);
 
             // 2D
             //JFreeChart chart = ChartFactory.createPieChart(str, data, true, false, false);
@@ -43,7 +46,7 @@ class PieChart {
             JFreeChart chart = ChartFactory.createPieChart3D(str, data, true, false, false);
 
             BufferedImage image = chart.createBufferedImage(399, 200);
-            ImageIO.write(image, "PNG", new File("piechart.png"));
+            ImageIO.write(image, "PNG", new File("piechart_lang.png"));
 
             JFrame frame = new JFrame(str1);
             frame.add(new ChartPanel(chart));
