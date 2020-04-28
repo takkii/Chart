@@ -15,3 +15,11 @@ jfreechart-*.jar
 ### jfreechart/lib
 
 *※ ライブラリーとしてIDEに追加します。*
+
+### プログラミング言語人気ランキング (2020年4月)
+
+[PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
+
+![Chart_lang](https://github.com/takkii/Chart/blob/master/piechart_lang.png)
+
+*サンプルですが、更新もしていきます...*
