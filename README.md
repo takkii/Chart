@@ -20,6 +20,6 @@ jfreechart-*.jar
 
 [PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
 
-![Chart_lang](https://github.com/takkii/Chart/blob/master/piechart_lang.png)
+![Chart_lang](https://github.com/takkii/Chart/blob/master/piechart_lang_else.png)
 
 *サンプルですが、更新もしていきます... (ランキング5位までにRubyはなかった...)*
