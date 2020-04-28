@@ -43,7 +43,7 @@ class PieChart {
 
             JFrame frame = new JFrame(str1);
             frame.add(new ChartPanel(chart));
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
             frame.pack();
             frame.setVisible(true);
         } catch (Exception e) {
