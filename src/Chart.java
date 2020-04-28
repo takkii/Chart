@@ -12,21 +12,14 @@ import java.io.File;
 class PieChart {
     void en() {
         try {
-            double num0;
-            double num1;
-            double num2;
-            double num3;
-            double num4;
-
-            String str;
-            String str1;
+            double num0, num1, num2, num3, num4;
+            String str, str1;
 
             num0 = 30.61;
             num1 = 18.45;
             num2 = 7.91;
             num3 = 7.27;
             num4 = 6.07;
-
             str = "プログラミング言語の人気ランキング（2020年4月）";
             str1 = "円グラフ";
 
