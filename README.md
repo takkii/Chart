@@ -22,4 +22,4 @@ jfreechart-*.jar
 
 ![Chart_lang](https://github.com/takkii/Chart/blob/master/piechart_lang.png)
 
-*サンプルですが、更新もしていきます...*
+*サンプルですが、更新もしていきます... (ランキング5位までにRubyはなかった...)*
