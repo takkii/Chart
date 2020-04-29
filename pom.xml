@@ -16,7 +16,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Chart</mainClass>
+                            <mainClass>Chart.App</mainClass>
                             <addClasspath>true</addClasspath>
                             <addExtensions>false</addExtensions>
                         </manifest>
