@@ -5,7 +5,8 @@ import org.jfree.chart.StandardChartTheme;
 import org.jfree.data.general.DefaultPieDataset;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
