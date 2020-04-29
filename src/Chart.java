@@ -4,11 +4,14 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.StandardChartTheme;
 import org.jfree.data.general.DefaultPieDataset;
 
-import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
+
+/* 画像生成、保存用ライブラリー
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
+*/
 
 class PieChart {
     void en() {
