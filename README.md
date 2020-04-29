@@ -23,3 +23,9 @@ jfreechart-*.jar
 ![Chart_lang](https://github.com/takkii/Chart/blob/master/piechart_lang_else.png)
 
 *サンプルですが、更新もしていきます... (ランキング5位までにRubyはなかった...)*
+
+```markdown
+java -jar out/artifact/Chart.jar/Chart.jar
+```
+
+*GitHubレポ、takkii/Chartのheadをjarファイル化しました*
