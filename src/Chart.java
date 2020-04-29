@@ -39,8 +39,9 @@ class PieChart {
             // 3D
             JFreeChart chart = ChartFactory.createPieChart3D(str, data, true, false, false);
 
-            BufferedImage image = chart.createBufferedImage(399, 200);
-            ImageIO.write(image, "PNG", new File("piechart_lang.png"));
+            // Create PNG image file.
+            // BufferedImage image = chart.createBufferedImage(399, 200);
+            // ImageIO.write(image, "PNG", new File("piechart_lang.png"));
 
             JFrame frame = new JFrame(str1);
             frame.add(new ChartPanel(chart));
