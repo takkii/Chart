@@ -25,7 +25,9 @@ jfreechart-*.jar
 *サンプルですが、更新もしていきます... (ランキング5位までにRubyはなかった...)*
 
 ```markdown
-java -jar out/artifact/Chart.jar/Chart.jar
+https://github.com/takkii/Chart.git
+cd Chart/out/artifacts/Chart_jar
+java -jar Chart.jar
 ```
 
-*GitHubレポ、takkii/Chartのheadをjarファイル化しました*
+*GitHub、takkii/Chartのレポジトリ、masterブランチをjarファイル化しました*
