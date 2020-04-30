@@ -30,14 +30,19 @@ cd Chart/out/artifacts/Chart
 java -jar main.jar
 ```
 
+```markdown
+mvn package
+cd target
+java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
 *GitHub、takkii/Chartのレポジトリ、masterブランチをjarファイル化しました*
 
 ### GitHub Packegeにも登録しました。
 
 ```markdown
 Chart.App
-Exception in thread "main" java.lang.NoClassDefFoundError: org/jfree/data/general/PieDataset
-jfreechart.jarを読み込ませれば動作します...
+java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 Chart.Chart and takkkii.Chart
 ・クラスがロードできませんでした
