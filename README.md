@@ -31,3 +31,11 @@ java -jar Chart.jar
 ```
 
 *GitHub、takkii/Chartのレポジトリ、masterブランチをjarファイル化しました*
+
+### GitHub Packegeにも登録しました。
+
+```markdown
+・クラスがロードできませんでした
+3つのレポジトリで実行できないようです。
+試験的にmavenを走らせたので、用途で使います。
+```
