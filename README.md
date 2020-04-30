@@ -44,8 +44,5 @@ java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 Chart.App
 java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-Chart.Chart and takkkii.Chart
-・クラスがロードできませんでした
-
-試験的にmavenを走らせたので、用途で使います。
+※ 検証としてmavenを走らせました。
 ```
