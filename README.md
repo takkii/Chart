@@ -26,8 +26,8 @@ jfreechart-*.jar
 
 ```markdown
 https://github.com/takkii/Chart.git
-cd Chart/out/artifacts/Chart_jar
-java -jar Chart.jar
+cd Chart/out/artifacts/Chart
+java -jar main.jar
 ```
 
 *GitHub、takkii/Chartのレポジトリ、masterブランチをjarファイル化しました*
