@@ -50,3 +50,10 @@ java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 #### Javaでチャート表示するプロジェクト...
+
+```markdown
+動作確認
+
+OpenJDK8
+OracleJDK8
+```
