@@ -47,12 +47,12 @@ java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```markdown
 GitHub package / Chart.App
 
-https://github.com/takkii/Chart.git
+右側ファイルアイコンからダウンロード
 
-cd Chart
-(プロジェクト内を使用)
-
+cd ダウンロード先
 java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+※ GitHub package / Chart.Appに詳細あり。
 ```
 
 *※ 検証としてmavenを走らせました。*
