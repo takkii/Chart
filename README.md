@@ -33,6 +33,10 @@ java -jar main.jar
 ### mvnで自分ビルド
 
 ```markdown
+https://github.com/takkii/Chart.git
+cd Chart
+rm -rf target
+
 mvn package
 cd target
 java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
@@ -42,6 +46,11 @@ java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ```markdown
 GitHub package / Chart.App
+
+https://github.com/takkii/Chart.git
+
+cd Chart
+(プロジェクト内を使用)
 
 java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
