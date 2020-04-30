@@ -30,6 +30,8 @@ cd Chart/out/artifacts/Chart
 java -jar main.jar
 ```
 
+### mvnで自分ビルド
+
 ```markdown
 mvn package
 cd target
@@ -46,3 +48,5 @@ java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ※ 検証としてmavenを走らせました。
 ```
+
+#### Javaでチャート表示するプロジェクト...
