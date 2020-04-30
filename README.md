@@ -38,16 +38,15 @@ cd target
 java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-*GitHub、takkii/Chartのレポジトリ、masterブランチをjarファイル化しました*
-
 ### GitHub Packegeにも登録しました。
 
 ```markdown
-Chart.App
-java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
+GitHub package / Chart.App
 
-※ 検証としてmavenを走らせました。
+java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
+
+*※ 検証としてmavenを走らせました。*
 
 #### Javaでチャート表示するプロジェクト...
 
@@ -57,3 +56,5 @@ java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 OpenJDK8
 OracleJDK8
 ```
+
+#### 以上
