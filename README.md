@@ -35,8 +35,12 @@ java -jar main.jar
 ### GitHub Packegeにも登録しました。
 
 ```markdown
+Chart.App
 Exception in thread "main" java.lang.NoClassDefFoundError: org/jfree/data/general/PieDataset
-
 jfreechart.jarを読み込ませれば動作します...
+
+Chart.Chart and takkkii.Chart
+・クラスがロードできませんでした
+
 試験的にmavenを走らせたので、用途で使います。
 ```
