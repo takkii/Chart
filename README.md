@@ -46,12 +46,10 @@ java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```markdown
 GitHub package / Chart.App
 
-右側ファイルアイコンからダウンロード
+右側ファイルアイコン(App-1.0-20200430.081444-1-jar-with-dependencies.jar)からダウンロード
 
 cd ダウンロード先
-java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
-
-※ GitHub package / Chart.Appに詳細あり。
+java -jar App-1.0-20200430.081444-1-jar-with-dependencies.jar
 ```
 
 *※ 検証としてmavenを走らせました。*
