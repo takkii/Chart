@@ -42,7 +42,7 @@ java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ```markdown
 Chart.App
-java -jar App-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/App-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 Chart.Chart and takkkii.Chart
 ・クラスがロードできませんでした
